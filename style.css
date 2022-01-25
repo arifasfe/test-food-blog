@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-bar{
+    background-color: orange;
+    width:100%;
+    overflow: auto;
+}
+.nav-bar a{
+    float:right;
+    text-align: center;
+    text-decoration: none;
+    padding:50px;
+    color:white;
+    font-size: 200%;
+}
+#logo{
+    float:left;
+    font-size: 400%;
+    text-align: center;
+    padding:20px;
+    color: white;
+}
