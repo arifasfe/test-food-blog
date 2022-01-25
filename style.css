@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .nav-bar{
-    background-color: orange;
+    background-color: rgba(255, 174, 24, 0.89);
     width:100%;
     overflow: auto;
 }
@@ -22,5 +22,63 @@ img{
     font-size: 400%;
     text-align: center;
     padding:20px;
+    margin-left: 40px;
     color: white;
+}
+.highlight{
+    color:rgba(255, 174, 24, 0.89);
+}
+.first-block{
+    display: flex;
+}
+.half-length{
+    width:50%;
+    padding: 60px;
+}
+.half-length2{
+    width:50%;
+    padding-top: 60px;
+    padding-right: 120px;
+    margin-top: 120px;
+    margin-right: 80px;
+}
+
+.half-length a{
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(255, 174, 24, 0.89),rgba(253, 201, 105, 0.315));
+    color:black;
+    font-size: 20px;
+    padding: 14px 10px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 30px;
+}
+.id{
+    font-size: 30px;
+    margin-top: 40px;
+}
+#first-p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: medium;
+}
+.second-logo{
+    width: 300px;
+    height:300px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.bio-pic{
+    width: 400px;
+    height:500px;
+    padding-left: 80px;
+    margin-top:45px;
+}
+.second-block{
+    display: flex;
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    
 }
