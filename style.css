@@ -28,9 +28,6 @@ img{
 .highlight{
     color:rgba(255, 174, 24, 0.89);
 }
-.highlight2{
-    color: gray;
-}
 .first-block{
     display: flex;
     margin-left: 50px;
@@ -142,6 +139,9 @@ h1{
 .final-section{
     background-color: black;
     text-align: center;
+}
+.highlight2{
+    color: gray;
 }
 .final-section h1{
     padding: 10px;
