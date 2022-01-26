@@ -28,8 +28,13 @@ img{
 .highlight{
     color:rgba(255, 174, 24, 0.89);
 }
+.highlight2{
+    color: gray;
+}
 .first-block{
     display: flex;
+    margin-left: 50px;
+    margin-right: .001px;
 }
 .half-length{
     width:50%;
@@ -81,4 +86,81 @@ h1{
     background-image: url(images/bg1.png);
     background-repeat: no-repeat;
     
+}
+#recipe{
+    font-size: 30px;
+    text-align: center;
+    padding:20px;
+}
+.second-p{
+    text-align: center;
+    padding:10px 200px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 15px;
+}
+.one-third{
+    width:98%;
+    margin:20px;
+    display: flex;
+}
+.card{
+    text-align: center;
+    width:100%;
+    margin: 20px;
+    border: black;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+.card p{
+    font-size: 15px;
+}
+.card img{
+    
+    height:200px;
+    width:200px;
+    border-radius: 10%;
+    
+}
+.follower{
+    display:flex;
+    margin: 150px 40px;
+    border: black;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+.follower div{
+
+    text-align: center;
+    width:50%;
+    margin: 10px;
+    border: black;
+    padding: 20px 15px;
+}
+.final-section{
+    background-color: black;
+    text-align: center;
+}
+.final-section h1{
+    padding: 10px;
+}
+.final-section h6{
+    padding: 5px;
+}
+.final-logo{
+    display:flex;
+
+}
+.final-logo p{
+    
+    height: 100%;
+    width: 100%;
+    margin-right: .001px;
+    
+}
+.final-logo p img{
+    height:40px;
+    width:45px;
 }
