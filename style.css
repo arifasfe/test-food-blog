@@ -1,6 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.first-bar{
+
+}
 .nav-bar{
     background-color: rgba(255, 174, 24, 0.89);
     width:100%;
@@ -10,16 +13,16 @@ body{
     float:right;
     text-align: center;
     text-decoration: none;
-    padding:50px;
+    padding:30px;
     color:white;
     font-size: 200%;
 }
-img{
-    width: 100px;
+#logo img{
+    width: 50px;
 }
 #logo{
     float:left;
-    font-size: 400%;
+    font-size: 300%;
     text-align: center;
     padding:20px;
     margin-left: 40px;
